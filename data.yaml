@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['B_R1', 'KFS_FAKE', 'KFS_REAL']
+
+roboflow:
+  workspace: robocon-mct
+  project: kfs_detection-vfkki-y1fcb
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/robocon-mct/kfs_detection-vfkki-y1fcb/dataset/2
